@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37957" started-at="2021-06-07T13:05:28 IST" finished-at="2021-06-07T13:06:06 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37957" started-at="2021-06-07T13:05:28 IST" finished-at="2021-06-07T13:06:06 IST">
+      <class name="TestPage.validLoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestPage.validLoginTest@467aecef]" name="setup" is-config="true" duration-ms="17547" started-at="2021-06-07T13:05:29 IST" finished-at="2021-06-07T13:05:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validPageRun(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestPage.validLoginTest@467aecef]" name="validPageRun" duration-ms="17629" started-at="2021-06-07T13:05:46 IST" data-provider="getCRMTestData" finished-at="2021-06-07T13:06:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[murugan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mass@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[billa@10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPageRun -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestPage.validLoginTest@467aecef]" name="close" is-config="true" duration-ms="1940" started-at="2021-06-07T13:06:04 IST" finished-at="2021-06-07T13:06:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestPage.validLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
